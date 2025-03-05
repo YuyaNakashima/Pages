@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Animated Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================
+       Header / Navigation
+  ================== -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ==================
+       Hero Section
+  ================== -->
+  <section id="hero" class="hero fade-in">
+    <div class="hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>SEとして3年以上の経験を持ち、組込み制御から基幹系・業務システムまで幅広い分野の開発に携わってきました。
+お客様の要件定義から実装、保守運用まで一貫して対応し、堅牢性と保守性を重視したシステム構築を得意としています。</p>
+      <a href="#about" class="btn">View More</a>
+    </div>
+  </section>
+
+  <!-- ==================
+       About Section
+  ================== -->
+  <section id="about" class="about fade-in">
+    <h2>About Me</h2>
+    <div class="about-content">
+
+      <!-- プロフィール写真の代わりにデザインされた背景を使用 -->
+      <div class="profile-background"></div>
+
+      <div class="about-text">
+        <p>
+          このポートフォリオをご覧いただきありがとうございます。
+          私は組込み制御から業務系システムまで幅広い開発経験を持つシステムエンジニアです。
+          C言語やJava、Python、アセンブラなどを駆使して、要件定義や基本設計、詳細設計から開発・テストまで一貫して担当してきました。
+          電力制御システムや車載制御システム、ハローワークの業務システムなど多様なプロジェクトに携わり、信頼性や保守性、効率性を重視した実装を行っています。
+          本ポートフォリオでは、得意分野やスキルセットなどをご紹介します。ぜひご覧ください。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================
+       Skills Section
+  ================== -->
+  <section id="skills" class="skills fade-in">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li><strong>Programming:</strong> Java、Python、C言語、etc.</li>
+      <li><strong>Web:</strong> HTML, CSS, React, etc.</li>
+      <li><strong>Tools:</strong> Git, etc.</li>
+    </ul>
+  </section>
+
+  <!-- ==================
+       Projects Section
+  ================== -->
+  <section id="projects" class="projects fade-in">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>自己研鑽として作成した顧客管理システム（PHP）</p>
+        <a href="https://github.com/YuyaNakashima/customer_manage" class="btn">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>自己研鑽として作成したタスク管理システム（Python）</p>
+        <a href="https://github.com/YuyaNakashima/task_management_Py" class="btn">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================
+       Contact Section
+  ================== -->
+  <section id="contact" class="contact fade-in">
+    <h2>Contact</h2>
+    <p>お仕事のご依頼やご質問などございましたら、以下からお気軽にご連絡ください。</p>
+    <div class="contact-methods">
+      <a href="mailto:yuyabaseballyear@yahoo.co.jp">yuyabaseballyear@yahoo.co.jp</a>
+      <div class="sns">
+        <a href="https://github.com/YuyaNakashima" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================
+       Footer
+  ================== -->
+  <footer class="footer">
+    <p>© 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- ==================
+       JavaScript
+  ================== -->
+  <script src="script.js"></script>
+</body>
+</html>
